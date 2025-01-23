@@ -86,34 +86,41 @@ body{
     left: 10px;
 
 }
-.anime1, .anime2{
+.image1, .image2{
     background-size: cover;
     background-position: center;
     border-top: 5px solid #cfc7c7;
     width: 100%;
     height: 500px;
     margin-top: 30px;
-}
-div.image{
+    cursor: pointer;
+    
+} 
+div.anime{
     position: relative;
+
 }
-img.anime1{
+img.image1{
     position: absolute;
 }
-div.image:hover .anime2{
+div.image:hover .image2{
     opacity: 1;
 
 }
-div.image:hover .anime1{
+div.anime:hover .image1{
     opacity: 0;
 
 }
-.sec1{
+img.anime{
+    transition: transform 2s ease;
+    position: absolute;
+}
+/* .sec1{
     height: 90vh;
-}
-.container{
+} */
+/* .container{
     height: 70vh;
-}
+} */
 .title{
     font-size: 26px;
     color: #a72632;
