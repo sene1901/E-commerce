@@ -95,9 +95,44 @@ body{
     height: 500px;
     margin-top: 30px;
 }
+.sec1{
+    height: 120vh;
+}
+.container{
+    height: 100vh;
+}
+.title{
+    font-size: 26px;
+    color: #a72632;
+    text-align: center;
+
+}
 .galerie{
+    padding-top: 20px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-     grid-template-rows: 60px; 
-    grid: 20px;
+    grid-template-columns: repeat(4,250px);
+     grid-template-rows: 250px; 
+     /* column-gap:10px; */
+     justify-content: space-around;
+     
+}
+.photo1{
+    background-image: url("Images/IMG3.webp");
+}
+.photo2{
+    background-image: url("Images/IMG4.webp");
+}
+.photo3{
+    background-image: url("Images/IMG5.webp");
+}
+.photo4{
+    background-image: url("Images/IMG6.webp");
+}
+.photo1, .photo2, .photo3, .photo4{
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    margin-left: -30px;
+    
 }
