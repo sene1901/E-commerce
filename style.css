@@ -86,8 +86,7 @@ body{
     left: 10px;
 
 }
-.image{
-    background-image: url("Images/img1.webp");
+.anime1, .anime2{
     background-size: cover;
     background-position: center;
     border-top: 5px solid #cfc7c7;
@@ -95,11 +94,25 @@ body{
     height: 500px;
     margin-top: 30px;
 }
+div.image{
+    position: relative;
+}
+img.anime1{
+    position: absolute;
+}
+div.image:hover .anime2{
+    opacity: 1;
+
+}
+div.image:hover .anime1{
+    opacity: 0;
+
+}
 .sec1{
-    height: 120vh;
+    height: 90vh;
 }
 .container{
-    height: 100vh;
+    height: 70vh;
 }
 .title{
     font-size: 26px;
@@ -139,6 +152,22 @@ body{
 .titre{
 display: flex;
 justify-content: space-around;
+
+
+}
+.titre1{
+    margin-left: -20px;
+
+} 
+
+.titre2{
+
+}
+.titre3{
+
+}
+ .titre4{
+    margin-left: -50px;
 
 }
 .titre a{
