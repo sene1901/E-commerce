@@ -107,7 +107,7 @@ body{
     text-align: center;
 
 }
-.galerie{
+.galerie {
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(4,250px);
@@ -135,4 +135,18 @@ body{
 .box{
     margin-left: -30px;
     
+}
+.titre{
+display: flex;
+justify-content: space-around;
+
+}
+.titre a{
+    text-decoration: none;
+    
+}
+.titre h3{
+    color: rgb(95, 91, 91);
+    font-size: 20px;
+    text-align: center;
 }
