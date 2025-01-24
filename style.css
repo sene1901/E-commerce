@@ -4,6 +4,9 @@ body{
     font-family: "Roboto",  sans-serif;
 
 }
+.contenu{
+    position: fixed;
+}
 /* header */
 .header-end{
     width: 100%;
