@@ -288,13 +288,14 @@ background-color:rgb(255, 255, 255);
 
 }
 .sec3{
-    height: 120vh;
+    height: 130vh;
     padding-top: 30px;
     background:url("Images/banniere_site_web_sous_recette_1920x1080.jpg"); 
     background-size: cover;
     background-position: center;
 }
 .container3{
+    height: 60vh;
 
    
 }
@@ -305,22 +306,22 @@ background-color:rgb(255, 255, 255);
     margin: 15px 0;
 }
  .repas1{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-image: url("Images/REPAS1.jpg");
     background-size: cover;
     background-position: center;
 }
 .repas2{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-image: url("Images/REPAS2.jpg");
     background-size: cover;
     background-position: center;
 }
 .repas3{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-image: url("Images/REPAS3.jpg");
     background-size: cover;
     background-position: center;
@@ -330,12 +331,149 @@ background-color:rgb(255, 255, 255);
     background-position: center;
 } */
 .Galerie3{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
+    margin-top: 15px;
+}
+.para1 {
+    width: 100%;
+    height: 360px; 
+    display: flex;
+    justify-content: end; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    margin-left: 30px;
+    color: #837e7e;
+    font-weight: bold;
+}
+.para1 a{
+    color: #837e7e;
+    
+}
+
+
+.container3-1 button{
+    Background-color:rgb(255, 255, 255);
+    padding: 20px 30px 20px 30px;
+    border: 2px solid #424040;
+    color:    rgb(59, 57, 57);
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container3-1 {
+    padding-top: 50px;
+    text-align: center; 
+}
+.container3-2{
+    margin-top: 25px;
+    padding-top: 30px;
+    height: 280px;
+    background-color: rgb(255, 190, 159);
+}
+.container3-2 h1{
+    text-align: center;
+    color: #a72632;
+    font-size: 26px;
+    letter-spacing: 2px;
 
 }
+.sec4{
+    height: 80vh;
+    margin-top: 50px;
+    background: #f3f3f3;
+    
+}
+.container4{
+    height: 60vh;
+    padding-top: 30px ;
+    
+}
+.anime-image1{
+    background: url("Images/IMG1.jpeg");
+}
+.anime-image2{
+    background: url("Images/IMG2.jpg");
+}
+
+.anime-image3{
+    background: url("Images/IMG3.jpg");
+}
+
+.anime-image4{
+    background: url("Images/IMG4.jpg");
+}
+.anime-image5{
+    background: url("Images/IMG5.jpg");
+}
+.anime-image6{
+    background: url("Images/IMG6.jpg");
+}
+.anime-image7{
+    background: url("Images/IMG7.webp");
+}
+.anime-image8{
+    background: url("Images/IMG8.jpg");
+}
+/* .anime-image9{
+    background: url("Images/IMG9.jpg");
+}
+.anime-image10{
+    background: url("Images/IMG10.jpg");
+} */
+.anime-image1,.anime-image2,.anime-image3, .anime-image4,.anime-image5,
+.anime-image6, .anime-image7, .anime-image8, .anime-image9, .anime-image10{
+    background-size: cover;
+    background-position: center;
+}
+.anime-images{
+    display: grid;
+    grid-template-columns:repeat(8,150px);
+    grid-template-rows: 150px;
+    gap:10px;
+}
+.sec5{
+    height: 100vh;
+}
+.sec5 .container5{
+    height: 90vh;
+    background: url("Images/AdobeStock_749648972_1500x.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+.cadre{
+     height: 300px; 
+     width: 300px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    margin: auto;
+ padding-left: 15px; 
+   
+}
+.cadre h3{
+    font-size: 20px;
+    color: #535050;
+}
+.cadre a,p{
+    font-size: 16px;
+    color: #979292;
+}
+.cadre a{
+    text-decoration: none;
+}
+.cadre a:hover{
+    border-bottom: 2px solid grey;  
+}
+.cadre h3,a,p{
+    text-align: center;
+}
+
+
+
+
 
 
